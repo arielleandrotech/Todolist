@@ -1,0 +1,138 @@
+
+html {
+    background-color: #FFEECC;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.navbar .list{
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    gap: 25px;
+    padding: 20px;
+    margin-top: 10px;
+
+}
+
+.list a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #FBA1B7;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: bold;
+}
+
+
+.list a:hover{
+    background-color: #FFCCCC;
+    border-radius: 5px;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.title h1 {
+    font-family: "Dancing Script";
+    font-size: 2.5rem;
+    color: #FBA1B7;
+    padding: 15px;
+    text-shadow: 3px 3px 4px #aaa;
+}
+footer {
+    margin-top: 550px;
+    display: flex;
+    justify-content: center;
+    color: #FBA1B7;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    margin-bottom: 20px;
+    
+}
+.container {
+    width: 400px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px -5px rgba(0, 0, 0, 0.3);
+    
+}
+.heading {
+    background-color: #FEBBCC;
+    width: 400px;
+    text-align: center;
+    font-size: 30px;
+    padding: 15px 0;
+    border-radius: 20px 20px 0 0;
+    color: #FFEECC;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    position: relative;
+    font-weight: bold;
+    text-shadow: 3px 3px 4px #aaa;
+
+}
+
+.typeBox{
+    width: 400px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+input[type="text"] {
+    width: 300px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    padding: 3px 10px;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 20px;
+    color: #FBA1B7;
+    font-weight: bold;
+}
+
+button {
+    min-height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #FEBBCC;
+    color: #fff;
+    font-size: 30px;
+    border: none;
+    box-shadow: 5px 5px 10px -5px rgba(0, 0, 0, 0.3);
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid wheat;
+    height: 60px;
+}
+input[type="checkbox"] {
+    margin: 20px;
+
+}
+
+.item p{
+    color: #FEBBCC;
+    font-size: 20px;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: bold;
+}
+
+input:checked + p {
+text-decoration: line-through;
+}
